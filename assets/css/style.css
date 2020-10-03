@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url('../img/bg_hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    min-height: 38rem;
+}
+
+.navbar-brand img {
+    width: 3rem;
+}
+
+.portafolio {
+    background-color: #00CDC8;
+}
+
+div .portafolio {
+    background-color: rgba(0, 205, 200, 0.6);
+    margin-top: 12rem;
+    padding: 3rem;
+    width: 30rem;
+}
+
+@media (max-width: 576px) {
+    header {
+        min-height: 45rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    div .portafolio {
+        margin: auto;
+        margin-top: 28rem;
+        padding: 1.5rem;
+        max-width: 100%;
+    }
+}
