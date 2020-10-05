@@ -17,7 +17,10 @@ h2 {
     font-size: 3.5rem;
 }
 
-
+i{
+    color: #ffffff;
+    text-decoration: none;
+}
 
 .portafolio {
     background: #F56386;
@@ -27,9 +30,11 @@ h2 {
     width: 3rem;
 }
 
-.trabajo img{
-    max-width: 200px;
+.card button {
+    border: 1px solid #F56386;
+    color: #F56386;
 }
+
 
 @media (max-width: 576px){
     header {
