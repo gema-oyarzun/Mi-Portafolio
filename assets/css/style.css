@@ -1,41 +1,37 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f8fdfd;
+    background-color: #F7F5F5;
 }
 
-header img{
-    min-height: 500px;
-    position: absolute;
+h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+.portafolio {
+    background: #F56386;
 }
 
 .navbar-brand img {
     width: 3rem;
 }
 
-.portafolio {
-    background-color: #00CDC8;
-}
-
-div .portafolio {
-    position: relative;
-    z-index: 3;
-    padding: 3rem;
-    width: 30rem;
-}
-
-@media (max-width: 576px) {
-    header {
-        min-height: 700px;
-
-    }
+@media (max-width: 768px){
     h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
         font-size: 2rem;
     }
 
-    div .portafolio {
-        margin: auto;
-        margin-top: 28rem;
-        padding: 1.5rem;
-        max-width: 100%;
+    .hero {
+        text-align: center;
     }
 }
+
