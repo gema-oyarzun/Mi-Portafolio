@@ -27,6 +27,10 @@ h2 {
     width: 3rem;
 }
 
+.trabajo img{
+    max-width: 200px;
+}
+
 @media (max-width: 576px){
     header {
         max-height: 720px;
