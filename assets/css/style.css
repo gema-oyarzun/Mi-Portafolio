@@ -3,6 +3,10 @@ body {
     background-color: #F7F5F5;
 }
 
+header {
+    max-height: 550px;
+}
+
 h1 {
     font-weight: 700;
     font-size: 4.5rem;
@@ -13,6 +17,8 @@ h2 {
     font-size: 3.5rem;
 }
 
+
+
 .portafolio {
     background: #F56386;
 }
@@ -21,17 +27,18 @@ h2 {
     width: 3rem;
 }
 
-@media (max-width: 768px){
+@media (max-width: 576px){
+    header {
+        max-height: 720px;
+        text-align: center;
+    }
+
     h1 {
         font-size: 3rem;
     }
 
     h2 {
         font-size: 2rem;
-    }
-
-    .hero {
-        text-align: center;
     }
 }
 
