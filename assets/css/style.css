@@ -1,13 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f8fdfd;
 }
 
-header {
-    background-image: url('../img/bg_hero.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    min-height: 38rem;
+header img{
+    min-height: 500px;
+    position: absolute;
 }
 
 .navbar-brand img {
@@ -19,17 +17,17 @@ header {
 }
 
 div .portafolio {
-    background-color: rgba(0, 205, 200, 0.6);
-    margin-top: 12rem;
+    position: relative;
+    z-index: 3;
     padding: 3rem;
     width: 30rem;
 }
 
 @media (max-width: 576px) {
     header {
-        min-height: 45rem;
-    }
+        min-height: 700px;
 
+    }
     h1 {
         font-size: 2rem;
     }
